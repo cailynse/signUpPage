@@ -16,6 +16,7 @@
 </head>
 
 <body id="mainPage">
+	<div id="imageBanner"><img id="farmLogo" src="https://c1.staticflickr.com/3/2949/32267125933_ca9e4b7438_m.jpg"></div>
 	<nav id="navigation" class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -60,24 +61,32 @@
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
+
+	<div id="csaInfo">
+		<div>
+			<h2>2017 CSA</h2></div>
+		<p>Our CSA is the main focus at Pachamama Organics. We are so excited to provide you with weekly deliveries of our fresh, delicious veggies! The CSA runs from early June until the end of October. We offer a full share or a half share. The full share is a whole bunch of delicious veggies, ideal for a family or group of people looking to add regular organic veggies to their daily menu. The half share is exactly what it sounds like: half of that – enough for one or two people. You can sign up below – you will receive and email back from us within the day! Or send any inquiries to cailyn@pachamamaorganics.ca Prices: Full Share – $600 Half Share – $350</p>
+	</div>
+
 	<div id="form" class="well">
 		<h3 id="signUp">Sign Up</h3>
+		<p> For more information <a href="#">product page</a>.</p>
 		<form>
 			<div>
 				<label>First Name:</label>
-				<input type="text" placeholder="John" required>
+				<input name="firstName" type="text" placeholder="John" required>
 				<label>Last Name:</label>
-				<input type="text" placeholder="Smith" required>
+				<input name="lastName" type="text" placeholder="Smith" required>
 			</div>
 			<div>
 				<label>Address Line 1: </label>
-				<input type="text">
+				<input name="addressOne" type="text" placeholder=" 123 Street Rd.">
 				<label>Address Line 2:</label>
-				<input type="text">
+				<input name="addressTwo" type="text">
 			</div>
 			<div>
 				<label>City:</label>
-				<input type="text" value="city">
+				<input name="city" type="text" value="Ottawa">
 				<label>Province:</label>
 				<select>
 					<option>Alberta</option>
@@ -98,16 +107,16 @@
 			</div>
 			<div>
 				<label>Postal Code:</label>
-				<input type="text">
+				<input name="postal" type="text" placeholder="K1K 1K1">
 				<label>Phone:</label>
-				<input type="tel">
+				<input name="phone" type="tel" placeholder="123-123-1234">
 			</div>
 			<div>
 				<label>Share Size:</label>
 				<input type="radio">
-				<label><a href="#">Half</a></label>
+				<label>Half ($350)</label>
 				<input type="radio">
-				<label><a href="#">Full</a></label>
+				<label>Full ($600)</label>
 				<label>Pick Up Location:</label>
 				<select>
 					<option>Moo Shu</option>
@@ -119,13 +128,13 @@
 			</div>
 			<div>
 				<label>Email:</label>
-				<input type="email">
+				<input type="email" placeholder="yourname@email.com">
 			</div>
 			<div>
 				<label>Password:</label>
-				<input type="password" placeholder="5-10 characters" required minlength="5" maxlength="10">
+				<input type="password" required minlength="5">
 				<label>Confirm Password:</label>
-				<input type="password" required minlength="5" maxlength="10">
+				<input type="password" required minlength="5">
 			</div>
 			<div>
 				<input type="submit">

@@ -1,31 +1,43 @@
-* {
-	font-family: "Dosis";
-}
-body {
-	padding-top: 45px;
-}
-#mainPage {
-	background-color: #D7FAAB;
-}
-h3 {
-	text-align: center;
-	color: #006B3D;
-	padding: 2%;
-	margin: 2%;
-}
-#form {
-	background-color: #ffffff;
-	margin: 4%
-}
-form input {
-	margin-bottom: 2%;
-}
-input {
-	margin: 2%;
-}
-a:link {
-	color: #BE004A;
-}
-a:visted {
-	color: #C23700;
-}
+	* {
+		font-family: "Dosis";
+	}
+	body {
+		padding-top: 15px;
+	}
+	#mainPage {
+		background-color: #D7FAAB;
+	}
+	#imageBanner {
+		padding-bottom: 15px;
+		text-align: center;
+	}
+	#farmLogo {
+		border-radius: 25px;
+	}
+	#csaInfo {
+		padding: 2%;
+	}
+	h3 {
+		color: #006B3D;
+	}
+	#form {
+		background-color: #ffffff;
+		width: 500px;
+		margin: 4% auto;
+		;
+	}
+	form input {
+		margin-bottom: 2%;
+	}
+	input {
+		margin: 2%;
+	}
+	label {
+		font-weight: bold;
+	}
+	a:link {
+		color: #BE004A;
+	}
+	a:visted {
+		color: #C23700;
+	}
